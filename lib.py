@@ -2,6 +2,8 @@
 Main code
 """
 import pandas as pd
+import seaborn.objects as so
+from matplotlib import style
 #import numpy as np
 
 
@@ -13,8 +15,6 @@ def development(data):
 
 # generate Plot
 
-import seaborn.objects as so
-from matplotlib import style
 
 def plot(data):
     my_chart = (so.Plot(data, x="Mortality rate, infant (per 1,000 live births)", y="GDP per capita (constant 2010 US$)")
