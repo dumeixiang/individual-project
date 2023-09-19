@@ -7,6 +7,8 @@ import pandas as pd
 from main import development
 from lib import development
 from lib import plot
+import seaborn.objects as so
+from matplotlib import style
 
 def test_data():
     # Test with dataset
