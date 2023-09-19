@@ -5,10 +5,10 @@ Test goes here
 
 import pandas as pd
 from main import development
-from lib import development
-from lib import plot
 import seaborn.objects as so
 from matplotlib import style
+from lib import development
+from lib import plot
 
 def test_data():
     # Test with dataset
