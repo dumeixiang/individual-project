@@ -4,7 +4,6 @@ Test goes here
 """
 
 import pandas as pd
-from main import development
 import seaborn.objects as so
 from matplotlib import style
 from lib import development
