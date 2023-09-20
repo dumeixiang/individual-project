@@ -5,6 +5,7 @@ Test goes here
 
 import pandas as pd
 from main import development
+from main import plot
 
 def test_data():
     # Test with dataset
