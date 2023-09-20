@@ -17,7 +17,7 @@ def development(data):
 
 
 def plot(data):
-    my_chart = (so.Plot(data, x="a"), y="GDP per capita (constant 2010 US$)")
+    my_chart = (so.Plot(data, x="a", y="GDP per capita (constant 2010 US$)")
     .add(so.Line(), so.PolyFit(order=2))
     .add(so.Dot())
     .label(title="Log GDP and infat Mortality")
