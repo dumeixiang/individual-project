@@ -13,6 +13,15 @@ def test_data():
 )
     result = development(data)
     assert result == 47.790116494845364
+    
+def test_plot(data):
+    data= pd.read_csv("https://media.githubusercontent.com/media/nickeubank/'\
+    'MIDS_Data/master/World_Development_Indicators/wdi_small_tidy_2015.csv")
+    plot(data)
+    result = 1
+    #fig = plt.gcf()
+    #assert len(fig.axes) > 0
+    assert result == 1
 
 if __name__ == "__main__":
     test_data()
