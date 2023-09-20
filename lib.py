@@ -11,8 +11,7 @@ from matplotlib import style
 def development(data): 
     data = pd.read_csv("a.csv")
     data.describe()
-    return data["Adolescent fertility rate (births per 1,000'\
-    ' women ages 15-19)"].describe().loc['mean']
+    return data["a"].describe().loc['mean']
 
 # generate Plot
 
