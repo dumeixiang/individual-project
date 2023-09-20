@@ -14,8 +14,7 @@ def test_data():
     assert result == 47.790116494845364
 
 def test_plot(data):
-    data= pd.read_csv("https://media.githubusercontent.com/media/nickeubank/'\
-    'MIDS_Data/master/World_Development_Indicators/wdi_small_tidy_2015.csv")
+    data= pd.read_csv("a.csv")
     plot(data)
     result = 1
     #fig = plt.gcf()
