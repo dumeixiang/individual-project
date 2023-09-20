@@ -24,4 +24,4 @@ def test_plot(path):
 
 if __name__ == "__main__":
     test_data()
-    test_plot()
+    test_plot(./a.csv)
