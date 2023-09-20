@@ -18,9 +18,10 @@ def test_plot(data):
     data= pd.read_csv("https://media.githubusercontent.com/media/nickeubank/'\
     'MIDS_Data/master/World_Development_Indicators/wdi_small_tidy_2015.csv")
     plot(data)
+    result = 1
     #fig = plt.gcf()
     #assert len(fig.axes) > 0
-    assert 1 == 1
+    assert result == 1
     
 
 if __name__ == "__main__":
