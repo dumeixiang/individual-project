@@ -19,13 +19,7 @@ def test_data():
 def test_plot(data):
     data= pd.read_csv("https://media.githubusercontent.com/media/nickeubank/'\
     'MIDS_Data/master/World_Development_Indicators/wdi_small_tidy_2015.csv")
-    my_chart = (so.Plot(data, x="Mortality rate, infant (per 1,000 live births)", 
-                        y="GDP per capita (constant 2010 US$)")
-    .add(so.Line(), so.PolyFit(order=2))
-    .add(so.Dot())
-    .label(title="Log GDP and infat Mortality")
-    .theme({**style.library["seaborn-whitegrid"]}))
-    my_chart.show()
+    plot(data)
     #fig = plt.gcf()
     #assert len(fig.axes) > 0
     assert 1 == 1
