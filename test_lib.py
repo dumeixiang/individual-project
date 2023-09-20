@@ -9,8 +9,7 @@ from lib import plot
 
 def test_data():
     # Test with dataset
-    data= pd.read_csv("https://media.githubusercontent.com/media/'\
-    'nickeubank/MIDS_Data/master/World_Development_Indicators/wdi_small_tidy_2015.csv")
+    data= pd.read_csv("a.csv")
     result = development(data)
     assert result == 47.790116494845364
 
