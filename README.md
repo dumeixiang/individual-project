@@ -1,10 +1,10 @@
-[![Install](https://github.com/dumeixiang/individual-project/actions/workflows/install.yml/badge.svg)](https://github.com/dumeixiang/individual-project/actions/workflows/format.yml)
-
 [![Install](https://github.com/dumeixiang/individual-project/actions/workflows/install.yml/badge.svg)](https://github.com/dumeixiang/individual-project/actions/workflows/install.yml)
 
-[![Install](https://github.com/dumeixiang/individual-project/actions/workflows/install.yml/badge.svg)](https://github.com/dumeixiang/individual-project/actions/workflows/lint.yml)
+[![Format](https://github.com/dumeixiang/individual-project/actions/workflows/format.yml/badge.svg)](https://github.com/dumeixiang/individual-project/actions/workflows/format.yml)
 
-[![Install](https://github.com/dumeixiang/individual-project/actions/workflows/install.yml/badge.svg)](https://github.com/dumeixiang/individual-project/actions/workflows/test.yml)
+[![lint](https://github.com/dumeixiang/individual-project/actions/workflows/lint.yml/badge.svg)](https://github.com/dumeixiang/individual-project/actions/workflows/lint.yml)
+
+[![test](https://github.com/dumeixiang/individual-project/actions/workflows/test.yml/badge.svg)](https://github.com/dumeixiang/individual-project/actions/workflows/test.yml)
 
 Summary:
 
