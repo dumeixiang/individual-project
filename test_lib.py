@@ -5,7 +5,7 @@ Test goes here
 
 import pandas as pd
 from lib import development
-#from lib import plot
+from lib import plot
 
 def test_data():
     # Test with dataset
@@ -13,14 +13,14 @@ def test_data():
     result = development(data)
     assert result == 47.790116494845364
     
-#def test_plot(path):
-    #data= pd.read_csv(path)
-    #plot(data)
-   # result = 1
-    #fig = plt.gcf()
-    #assert len(fig.axes) > 0
-   # assert result == 1
+def test_plot(path):
+    data= pd.read_csv(path)
+    plot(data)
+    result = 1
+    fig = plt.gcf()
+    assert len(fig.axes) > 0
+    assert result == 1
 
 if __name__ == "__main__":
     test_data()
-   # test_plot("./a.csv")
+    test_plot("./a.csv")
