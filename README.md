@@ -1,3 +1,6 @@
+[![Install](https://github.com/dumeixiang/individual-project/actions/workflows/install.yml/badge.svg)](https://github.com/dumeixiang/individual-project/actions/workflows/install.yml)
+
+
 Summary:
 
 in the tech flow:
