@@ -19,8 +19,10 @@ Data.descrition:
 Task:
 
 1. Correctly read data.
-2. Accurate statistica summary.
+2. Accurate statistic summary.
 3. Functioning data visualization
+4. Creating lib python
+5. test for lib and main
 
 Deliverables
 1. Python script
