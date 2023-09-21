@@ -15,5 +15,5 @@ jobs:
         run: make install
       - name: test
         run: make test
-      - name:Run main script
+      - name: run main script
         run: python main.py
